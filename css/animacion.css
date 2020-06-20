@@ -1,0 +1,137 @@
+/* Momentazo de las animaciones  */
+
+
+.animacion-borde::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #ef233c;
+    position: relative;
+    display: block;
+    top: 3px;
+    transition: all .4s ease;
+}
+.animacion-borde:hover:after{
+    width: 100%;
+}
+
+/* animacion para los botones */
+
+.btn-sub1:hover{
+    background-color: transparent;
+    padding: 0.7em 20px;
+}
+.btn-sub2:hover{
+    border: 1px solid #edf2f4;
+    background-color:  #352c31;
+    padding: 0.7em 20px;
+}
+
+/* transicion para los dos botones */
+.titulo-sitio button i{
+    transform: rotate(0deg);
+    transition: all .5s ease;
+}
+.btn-sub1:hover span i,
+.btn-sub2:hover span i{
+    transform: rotate(180deg);
+    margin-left: 5px;
+}
+
+/* Seccion de Nosotros */
+.nosotros .col-md-4 .circulo:hover{
+    width: 105px;
+    height: 105px;
+    color: #3f494c;
+}
+
+/* estilos seccion de precios */
+.precios .basico a:hover,
+.empresa a:hover{
+    background-color: #ef233c;
+    color: white;
+}
+
+/* estilos paa el borde en los precios */
+@media only screen and (min-width:1024px){
+    .basico .border-basico, .empresa .border-basico{
+        /* absolute paa manipularlo, ya que las columnas ya tienen posicion relativa */
+        position: absolute;
+        background-color: #e30022;
+        transition: all .8s ease;
+    }
+    /* nth-child coincide con uno o más elementos en función de su posición entre un grupo de hermanos */
+    /* encuadramos los precios con los span */
+    .precios .basico .border-basico:nth-child(1),
+    .precios .empresa .border-basico:nth-child(1){
+        top: 0;left: 0;
+        width: 30px;
+        height: 1px;
+    }
+    .precios .basico .border-basico:nth-child(2),
+    .precios .empresa .border-basico:nth-child(2){
+        top: 0;left: 0;
+        width: 1px;
+        height: 30px;
+    }
+    .precios .basico .border-basico:nth-child(4),
+    .precios .empresa .border-basico:nth-child(4){
+        bottom: 0;right: 0;
+        width: 30px;
+        height: 1px;
+    }
+    .precios .basico .border-basico:nth-child(3),
+    .precios .empresa .border-basico:nth-child(3){
+        bottom: 0;right: 0;
+        width: 1px;
+        height: 30px;
+    }
+    .basico hr, .empresa hr, .bordelio hr{
+        transition: .5s ease all;
+    }
+    /* estilo para el borde pro */
+    .precios .pro .border-pro{
+        position: absolute;
+        background-color: #e30022;
+        transition: all .5s ease;
+    }
+
+    .pro .border-pro:nth-child(1){
+        bottom: 40%; right: 0;
+        width: 1px;
+        height: 120px;
+    }
+    .pro .border-pro:nth-child(2){
+        bottom: 40%; left: 0;
+        width: 1px;
+        height: 120px;
+    }
+   
+    
+}
+
+
+
+/* // animacion para la seccion de team */
+
+.team .iconos-sociales span:hover{
+    background-color: #ef233c;
+    color: white;
+}
+
+/* estilos para el footer */
+footer span:hover{
+    color: #3f494c;
+    background-color: white;
+}
+.volverInicio a:hover{
+    color: #f7fff7;
+}
+
+
+/* animacion para el scroll de navegacion  */
+.navegador-fijo{
+    background-color: black;
+    padding: 0 10%;
+    transition: all .5s ease;
+}

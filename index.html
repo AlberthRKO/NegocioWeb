@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#193e6c">
+    <title>Devop</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&family=Patua+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animacion.css">
+
+
+
+</head>
+<body>
+
+
+    <!-- homepage-->
+    <div class="envoltura-sitio">
+        <div class="container-fluid" id="inicio">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <span style="font-size: 17px; font-family: Pacifico;">ApCorp</span>
+                </a>
+ 
+                <!-- elemento disparador -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal"
+                aria-controls="menu-principal"
+                aria-expanded="false"
+                aria-label="Navegacion principal">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu-principal">
+                    <!-- mr-auto los separa a 2 ul como space-beetwen -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- lista para navegacion -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a href="#" id="inicio" class="nav-link">Inicio <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="#" id="nosotros" class="nav-link">Nosotros</a></li>
+                        <li class="nav-item"><a href="#" id="precios" class="nav-link">Precios</a></li>
+                        <li class="nav-item"><a href="#" id="servicios" class="nav-link">Servicios</a></li>
+                        <li class="nav-item"><a href="#" id="team" class="nav-link">Equipo</a></li>
+                        <li class="nav-item"><a href="#" id="contacto" class="nav-link">Contactanos</a></li>
+                    </ul>
+
+                </div>
+
+            </nav>
+
+            <!-- portada del sitio -->
+            <div class="d-flex justify-content-center">
+                <div class="titulo-sitio text-center">
+                    <h2>La web <span style="color: #ef233c;">que amaras.....!!</span></h2>
+                    <p class="texto-titulo my-4">
+                        Este es un diseño innovador que apreciaras mucho al utilizarlo, porque tiene 
+                        mucha iteraccion con el usuario, espero que te guste !
+                    </p>
+
+                    <!-- definiendo los botones -->
+                    <button type="submit" class="btn-sub1 mx-3 my-4">
+                        Obtenlo Ahora<span><i class="fas fa-angle-right"></i></span>
+                    </button>
+                    <button type="button" class="btn-sub2  my-4 text-white">
+                        Obtenlo Ahora<span><i class="fas fa-angle-double-right"></i></span>
+                    </button>
+
+                </div>
+                
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- **************************************** -->
+
+    <!-- Contenido 1 seccion Nosotros -->
+
+    <div class="container">
+        <div class="nosotros mb-4">
+            <div class="row m-4">
+                <div class="col-md-12 text-center">
+                    <h6>Caracteristicas asombrosas</h6>
+                    <h2>Creatividad en diseño de plantillas</h2>
+                    <span class="borde-titulo"></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dolores id nesciunt.
+                         Architecto magni quae sequi placeat sit vitae nulla consequuntur ea. Cum optio facilis
+                          nesciunt nobis ad nulla sapiente?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus excepturi sed 
+                        provident asperiores laborum repellendus a 
+                        eveniet facere error labore pariatur velit dicta, cumque sit recusandae obcaecati, harum quia placeat?</p>
+
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="circulo">
+                        <i class="fas fa-mobile-alt fa-3x mt-4"></i>
+                    </div>
+                    <div class="descripcion">
+                        <a href="#" class="p-3"><h5>Completamente responsivo</h5></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum natus 
+                            quia earum tempora est fugit exercitationem ipsam </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="circulo">
+                        <!-- fa-spin ase rotar a los iconos -->
+                        <i class="fas fa-cog fa-spin fa-3x mt-4"></i>
+                    </div>
+                    <div class="descripcion">
+                        <a href="#" class="p-3"><h5>Personalizable</h5></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum natus 
+                            quia earum tempora est fugit exercitationem ipsam </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="circulo">
+                        <i class="fas fa-pencil fa-3x mt-4"></i>
+                    </div>
+                    <div class="descripcion">
+                        <a href="#" class="p-3"><h5>Diseño moderno</h5></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum natus 
+                            quia earum tempora est fugit exercitationem ipsam </p>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- ******************************************* -->
+
+
+     <!-- seccion acerca de -->
+
+    <div class="acerca-de">
+        <div class="row">
+            <div class="col-md-6 col-1"></div>
+            <div class="col-md-6">
+                <!-- comenzamos a diseñar -->
+                <h6 class="m-3">Acerca de nosotros</h6>
+                <h3 class="m-3">Hacemos diseño fresco y limpio</h3>
+                <p class="m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tenetur
+                     ad alias a veniam similique, dolores, dolorem unde repellendus, 
+                    odit esse voluptatem perferendis placeat sed natus. Eveniet modi accusantium delectus!
+                </p>
+                <h5 class="m-3">Habilidades</h5>
+                <!-- diseño del progreso de habilidades -->
+                <!-- diseño progresivo de bootstrap -->
+                <div class="progress-bars">
+                    <!-- 1er -->
+                    <h6 class="m-3">Diseño de sitios web</h6>
+                    <div class="progress m-3">
+                        <!-- aria-valuenow=90 ponemos el nivel de muestra -->
+                        <!-- aria-valuemin y max , para el rango del progreso -->
+                        <!-- role="progressbar" rol del div -->
+                        <div class="progress-bar bg-danger pg1" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" role="progressbar">90%</div>
+
+                        <span class="sp-1"></span>
+
+                    </div>
+                    <!-- 2do -->
+                    <h6 class="m-3">Animacion</h6>
+                    <div class="progress m-3">
+                        <div class="progress-bar bg-dark pg2" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" role="progressbar">80%</div>
+                        
+                        <!-- prueba de scrolling -->
+                        <span class="sp-2"></span>
+
+                    </div>
+                    <!-- 3er -->
+                    <h6 class="m-3">Desarrollo</h6>
+                    <div class="progress m-3">
+                        <div class="progress-bar bg-secondary pg3" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" role="progressbar">90%</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>  
+
+     <!-- ********************************************* -->
+
+
+     <!-- Seccion de Precios -->
+    <div class="precios">
+        <div class="row text-center pt-4">
+            <div class="col-md-12">
+                <p>PAQUETES</p>
+                <h3>Nuestros Precios</h3> 
+            </div>
+        </div>
+        <!-- otra fila para los precios -->
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-xl-2 mx-3 mr-md-4 mb-4">
+                <div class="basico text-center  pro">
+
+                    <!-- creamos las posicions con span para modificarlo con nth-child -->
+                    <span class="border-basico"></span>
+                    <span class="border-basico"></span>
+                    <span class="border-basico"></span>
+                    <span class="border-basico"></span>
+
+
+                    <p>Basico</p>
+
+                    <div class="precio">
+                        <h1>
+                            <span class="dolar">$</span>10/
+                            <span style="font-size: 12px;">Mes</span>
+                        </h1>
+                    </div>
+                    <!-- informacion -->
+                    <div style="padding: 0% 10% 5%;">
+                        <hr>
+                        <h6>20 GB de almacenamiento</h6>
+                        <h6>1 cuenta de usuario</h6>
+                        <h6>Soporte 24/7</h6>
+                        <h6>300 GB de Banda ancha</h6>
+                        <h6>Gestion de usuario</h6>
+                    </div>
+
+                    <a href="#">Ordenar ya</a>
+                    
+                </div>
+            </div>
+            <div class="col-md-3 col-xl-2 mx-3 mr-md-4 mb-4">
+                <div class="pro text-center bordelio">
+                    <span class="border-pro"></span>
+                    <span class="border-pro"></span>
+                    <p>PRO</p>
+                    <div class="precio">
+                        <h1>
+                            <span class="dolar">$</span>20/
+                            <span style="font-size: 12px;">Mes</span>
+                        </h1>
+                    </div>
+                    <div style="padding: 0 10% 5%;">
+                        <hr>
+                        <h6>50 GB de almacenamiento</h6>
+                        <h6>2 cuenta de usuario</h6>
+                        <h6>Soporte 24/7</h6>
+                        <h6>Ilimitado de banda ancha</h6>
+                        <h6>Gestion de usuario</h6>
+                    </div>
+                    <a href="#">Obtener ya!</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-xl-2 mx-3 mr-md-4 mb-4">
+                <div class="pro empresa text-center">
+                    <span class="border-basico"></span>
+                    <span class="border-basico"></span>
+                    <span class="border-basico"></span>
+                    <span class="border-basico"></span>
+                    <p>Empresa</p>
+                    <div class="precio">
+                        <h1>
+                            <span class="dolar">$</span>45/
+                            <span style="font-size: 12px;">Mes</span>
+                        </h1>
+                    </div>
+                    <div style="padding: 0 10% 5%;">
+                        <hr>
+                        <h6>Almacenamiento ilimitado</h6>
+                        <h6>5 cuenta de usuario</h6>
+                        <h6>Soporte 24/7</h6>
+                        <h6>Ilimitado de banda ancha</h6>
+                        <h6>Gestion de usuario</h6>
+                    </div>
+                    <a href="#">Obtener ya!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********************************************* -->
+
+    <!-- Seccion de servicios -->
+    <div class="container">
+        <div class="servicios">
+            <!-- creamos el estilo de pestañas  -->
+            <ul class="nav justify-content-center py-5" role="tablist">
+                <li class="nav-item nav-tabs">
+                    <!-- data-toggle="tab" elemento disparador -->
+                    <a href="#diseño" class="active tab-item" role="tab" data-toggle="tab">
+                        <!-- accediendo a iconos de google -->
+                        <i class="material-icons">important_devices</i><!-- llamamos al icono -->
+                        <span>Diseño responsivo</span>
+                    </a>
+                </li>
+                <li class="nav-item nav-tabs">
+                    <a href="#desarrollo" class="tab-item" role="tab" data-toggle="tab">
+                        <i class="material-icons"> perm_data_setting</i>
+                        <span>Desarrollo</span>
+                    </a>
+                </li>
+                <li class="nav-item nav-tabs">
+                    <a href="#http" class="tab-item" role="tab" data-toggle="tab">
+                        <i class="material-icons">https</i>
+                        <span>HTTPS</span>
+                    </a>
+                </li>
+                <li class="nav-item nav-tabs">
+                    <a href="#marketing" class="tab-item" role="tab" data-toggle="tab">
+                        <i class="material-icons">equalizer</i>
+                        <span>Marketing</span>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- ponemos los elementos a que llegara  -->
+
+            <div class="tab-content">
+                <!-- el cotenido debe llevar -->
+                <!-- active para que coincida con el active del enlace -->
+                <!-- un role de tabpanel -->
+                <!-- un contenedor de todos los tabs con tab-content -->
+                <!-- un tab-pane que idica el contenido del contenido -->
+                <!-- un id para que se enlace con la direccion del enlace -->
+                <div class="active tab-pane" role="tabpanel" id="diseño">
+                    <!-- ontenidp --> 
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-3">
+                            <h4>Creamos increibles sitios web desde cero</h4>
+                        </div>
+                        <div class="col-md-7 text-dark">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Mollitia quaerat rem ut exercita tionem fugit 
+                                culpa totam nam necessitatibus. Consequatur laborum error 
+                                perferendis nihil hic quae soluta commodi atque consequuntur porro?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" role="tabpanel" id="desarrollo">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-3">
+                            <h4>Hacemos sitios al gusto del cliente</h4>
+                        </div>
+                        <div class="col-md-4 text-dark">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercita tionem delectus nobis, sunt, non fugit minima cum tenetur </p>
+                        </div>
+                        <div class="col-md-4 text-dark">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus aliquam architecto minus nemo, recusandae rerum blanditiis ut, </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" role="tabpanel" id="http">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-4 offset-md-1">
+                            <h4>Servicio de SSL Seguro</h4>
+                        </div>
+                    </div>
+                    <div class="row pt-3 ">
+                        <div class="col-md-10 offset-md-1">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure officiis ipsa modi necess itatibus adipisci sunt quas facere repellat dolorem at ex, rerum accusamus quos ea! Sint, enim facere. Quo, ab.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" role="tabpanel" id="marketing">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-1">
+                            <h4>Venta de nuestros productos muy altas</h4>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-md-3 offset-md-2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cum eum, veniam tenetur sequi quae itaque, eius iste magni esse soluta minus. Quibusdam alias ducimus neque? Quisquam inventore debitis voluptatibus.</p></div>
+                        <div class="col-md-3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cum eum, veniam tenetur sequi quae itaque, eius iste magni esse soluta minus. Quibusdam alias ducimus neque? Quisquam inventore debitis voluptatibus.</p></div>
+                        <div class="col-md-3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cum eum, veniam tenetur sequi quae itaque, eius iste magni esse soluta minus. Quibusdam alias ducimus neque? Quisquam inventore debitis voluptatibus.</p></div>
+        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- ********************************************* -->
+
+
+
+
+    <!-- Seccion de team -->
+
+    <div class="container">
+        <div class="team">
+            <div class="text-center">
+                <h6 style="color: #ef233c;">Nuestro Equipo</h6>
+                <h3>Creadores</h3>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="miembro-1">
+                        <div class="avatar">
+                            <span><img src="img/miamor.jpg" class="circulo" alt="Miebro del equipo"></span>
+                        </div>
+                        <div class="desc">
+                            <h5>Marlen Yucra</h5>
+                            <h6>Diseñadora Web</h6>
+                            <p class="info text-dark">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione aperiam, 
+                                qui voluptas veritatis magnam itaque aliquam consequatur.
+                            </p>
+                            <p class="iconos-sociales text-center">
+                                <span><i class="fab fa-whatsapp"></i></span>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-instagram"></i></span>
+                                <span><i class="fab fa-google-plus-g"></i></span>                                                        
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="miembro-1">
+                        <div class="avatar">
+                            <span><img src="img/yo.jpg" alt="miembro 2" class="circulo"></span>
+                        </div>
+                        <div class="desc">
+                            <h5>Alberth Paredes</h5>
+                            <h6>Desarrollador Web</h6>
+                            <p class="info text-dark">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione aperiam, 
+                                qui voluptas veritatis magnam itaque aliquam consequatur.
+                            </p>
+                            <p class="iconos-sociales text-center">
+                                <span><i class="fab fa-whatsapp"></i></span>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-instagram"></i></span>
+                                <span><i class="fab fa-google-plus-g"></i></span>                                                        
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="miembro-1">
+                        <div class="avatar">
+                            <span><img src="img/Member_1.jpeg" alt="miembro 2" class="circulo"></span>
+                        </div>
+                        <div class="desc">
+                            <h5>Orlando Paredes</h5>
+                            <h6>Desarrollador Front-End</h6>
+                            <p class="info text-dark">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione aperiam, 
+                                qui voluptas veritatis magnam itaque aliquam consequatur.
+                            </p>
+                            <p class="iconos-sociales text-center">
+                                <span><i class="fab fa-whatsapp"></i></span>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span><i class="fab fa-twitter"></i></span>
+                                <span><i class="fab fa-instagram"></i></span>
+                                <span><i class="fab fa-google-plus-g"></i></span>                                                        
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ************************************************ -->
+
+
+
+    <!-- Seccion de Contactos -->
+
+    <div class="contactos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <hr>
+                    <h6 style="color: #ef233c; margin-top: 4%;">Contactanos</h6>
+                    <h3>Ponerse en contacto</h3>
+                    <p style="font-size: 12px;" class="py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+            </div>
+            <div class="row contacto text-center">
+                <div class="col-md-4">
+                    <span><i class="fas fa-mobile-alt fa-3x"></i></span>
+                    <h5 class="mt-4">Telefono</h5>
+                    <p style="font-size: 13px;">+591 67981983</p>
+                </div>
+                <div class="col-md-4">
+                    <span><i class="fas fa-map-marker-alt fa-3x"></i></span>
+                    <h5 class="mt-4">Direccion</h5>
+                    <p style="font-size: 13px;">Zona Facultad de Tecnologia, Sucre, Bolivia</p>
+                </div>
+                <div class="col-md-4">
+                    <span><i class="fas fa-envelope fa-3x"></i></span>
+                    <h5 class="mt-4">Email</h5>
+                    <p style="font-size: 13px;">orlando.alb77@gmail.com</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-10 offset-md-1">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" id="nombre" class="form-control" placeholder="Nombre" autocomplete="off">
+                            </div>
+                            <div class="col">
+                                <input type="text" id="email" class="form-control" placeholder="Email" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col py-3">
+                                <input type="text" id="tema" class="form-control" placeholder="Tema">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <textarea name="mensaje" id="mensaje" class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col py-3">
+                                <button type="submit" class="btn btn-enviar btn-block">Enviar</button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***************************************************** -->
+
+    <!--seccion del  Footer -->
+
+    <footer>
+        <div class="text-center">
+            <h5 class="text-white">Siguenos</h5>
+            <!-- flex-row indicamos que sea en fila la orientacion de los hijos -->
+            <div class="d-flex flex-row justify-content-center">
+                <span><i class="fab fa-whatsapp"></i></span>
+                <span><i class="fab fa-facebook-f"></i></span>
+                <span><i class="fab fa-twitter"></i></span>
+                <span><i class="fab fa-instagram"></i></span>
+                <span><i class="fab fa-google-plus-g"></i></span> 
+            </div>
+            <p>&copy; Copyrigh Todos los derechos reservados by ApCorp</p>
+            <div class="volverInicio">
+                <a href="#inicio"><i class="fas fa-arrow-circle-up fa fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- **************************************************** -->
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    
+   
+
+
+</body>
+</html>
